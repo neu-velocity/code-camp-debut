@@ -18,7 +18,7 @@
 - 考察实现的题：这类题目一般读懂题就知道要干嘛了（比如LC65），少了很多对数据结构算法本身的思考过程，不是我们本次练习的重点。
 
 ## Progress
-- June 3, 2016 / Week 1 / Day 1
+- June / 2019 / Week 1 / Day 1
 - Keyword: __Linear Data Structure__
   - _Array_
   - _Stack_
