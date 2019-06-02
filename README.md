@@ -5,7 +5,6 @@
 
 ### Participation
 参加打卡的同学，会获得 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/Codes/${User}` 目录下。 
-:construction:  
 
 ### Principles of Problems Selection
 根据之前统计到的建议，本次题目范围集中在前400，每个topic题目构成如下：
@@ -19,7 +18,7 @@
 - 考察实现的题：这类题目一般读懂题就知道要干嘛了（比如LC65），少了很多对数据结构算法本身的思考过程，不是我们本次练习的重点。
 
 ## Progress
-- July 3, 2016 / Week 1 / Day 1
+- June 3, 2016 / Week 1 / Day 1
 - Keyword: __Linear Data Structure__
   - _Array_
   - _Stack_
