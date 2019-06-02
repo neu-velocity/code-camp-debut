@@ -9,9 +9,9 @@
 
 ### Principles of Problems Selection
 根据之前统计到的建议，本次题目范围集中在前400，每个topic题目构成如下：
-- 少量简单的题目作为 warmup。
+- 微量简单的题目作为 warmup。
 - 经典套路题目（考察数据结构的常规用法）。
-- 容易激起讨论的、让大家都能参与进来题目的稍难题目。
+- 值得好好讨论的、希望大家都能参与进来的经典难题。
    
 以下几类题目会很少出现：
 - 过于简单的题：“过于简单”的定义是稍微阅读一下题目Solution或者Google第一页就很容易消化掉的问题。
@@ -51,7 +51,7 @@
 | Day 5 |                                                                    |                              |     |      |        |
 
 #### Week 2
-- __Keyword:__ ___Tree Data Structure Tree___ _(BST included), Heap_
+- __Keyword:__ ___Tree Data Structure___ (_Tree, BST, Heap)_
 
 #### Week 3
 - __Keyword:__ ___Search___ _(Binary Search, DFS, BFS)_
