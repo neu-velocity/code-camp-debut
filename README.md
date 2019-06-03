@@ -16,7 +16,7 @@
 ### Yesterday's Challenges
 - [[0225](https://leetcode.com/problems/implement-stack-using-queues/)] Implement Stack using Queues (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/WEIJIE/LC%20-225.JAVA) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC225.py) )
 - [[0232](https://leetcode.com/problems/implement-queue-using-stacks/)] Implement Queue using Stacks (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/JingL/Sample_ImplementQueueUsingStacks.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC232.py) )
-- [[0020](https://leetcode.com/problems/valid-parentheses/)] Valid Parenthese (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/WEIJIE/LC-20) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC20.py) )
+- [[0020](https://leetcode.com/problems/valid-parentheses/)] Valid Parenthese (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0232.Solution.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC20.py) )
 - [[0394](https://leetcode.com/problems/decode-string/)] Decode String (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0394.Solution.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC394.py) )
 
 ## Introduction
@@ -24,6 +24,7 @@
 
 ### Participation
 参加打卡的同学，会获得 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/codes/${User}` 目录下：
+- [Felly](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/Felly)
 - [JingL](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/JingL)
 - [Nancy](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/Nancy)
 - [WEIJIE](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/WEIJIE)
@@ -48,7 +49,7 @@
 |-------|---------------------------------------------------------------------|--------------------------------|-----|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | Day 1 | [225](https://leetcode.com/problems/implement-stack-using-queues/)  | Implement Stack using Queues   |     | [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/WEIJIE/LC%20-225.JAVA)                       | [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC225.py) |
 |       | [232](https://leetcode.com/problems/implement-queue-using-stacks/)  | Implement Queue using Stacks   |     | [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/JingL/Sample_ImplementQueueUsingStacks.java) | [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC232.py) |
-|       | [20](https://leetcode.com/problems/valid-parentheses/)              | Valid Parentheses              |     | [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/WEIJIE/LC-20)                                | [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC20.py)  |
+|       | [20](https://leetcode.com/problems/valid-parentheses/)              | Valid Parentheses              |     | [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0232.Solution.java)                      | [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC20.py)  |
 |       | [394](https://leetcode.com/problems/decode-string/)                 | Decode String                  |     | [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0394.Solution.java)                      | [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC394.py) |
 | Day 2 | [503](https://leetcode.com/problems/next-greater-element-ii/)       | Next Greater Element II        |     |                                                                                                                       |                                                                                            |
 |       | [84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Largest Rectangle in Histogram |     |                                                                                                                       |                                                                                            |
