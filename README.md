@@ -4,7 +4,7 @@
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
 
 ### Participation
-参加打卡的同学，会获得 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/Codes/${User}` 目录下。 
+参加打卡的同学，会获得 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/codes/${User}` 目录下。 
 
 ### Principles of Problems Selection
 根据之前统计到的建议，本次题目范围集中在前 400，每个 topic 题目构成如下：
