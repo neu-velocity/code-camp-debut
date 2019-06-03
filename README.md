@@ -14,7 +14,7 @@
 - [[0085](https://leetcode.com/problems/maximal-rectangle/)] Maximal Rectangle
 
 ### Yesterday's Challenges
-- [[0225](https://leetcode.com/problems/implement-stack-using-queues/)] Implement Stack using Queues (Solutions: [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC225.py) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/WEIJIE/LC%20-225.JAVA) )
+- [[0225](https://leetcode.com/problems/implement-stack-using-queues/)] Implement Stack using Queues (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/WEIJIE/LC%20-225.JAVA) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC225.py) )
 - [[0232](https://leetcode.com/problems/implement-queue-using-stacks/)] Implement Queue using Stacks (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/JingL/Sample_ImplementQueueUsingStacks.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC232.py) )
 - [[0020](https://leetcode.com/problems/valid-parentheses/)] Valid Parenthese (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/WEIJIE/LC-20) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC20.py) )
 - [[0394](https://leetcode.com/problems/decode-string/)] Decode String (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0394.Solution.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC394.py) )
@@ -23,7 +23,11 @@
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
 
 ### Participation
-参加打卡的同学，会获得 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/codes/${User}` 目录下。 
+参加打卡的同学，会获得 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/codes/${User}` 目录下：
+- [JingL](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/JingL)
+- [Nancy](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/Nancy)
+- [WEIJIE](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/WEIJIE)
+- [Zac](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/Zac)
 
 ### Principles of Problems Selection
 根据之前统计到的建议，本次题目范围集中在前 400，每个 topic 题目构成如下：
