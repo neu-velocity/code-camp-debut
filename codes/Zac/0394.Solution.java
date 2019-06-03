@@ -1,56 +1,33 @@
-class MyStack {
-
-    private Queue<Integer> q1, q2;
-
-    /** Initialize your data structure here. */
-    public MyStack() {
-        this.q1 = new LinkedList();
-        this.q2 = new LinkedList();
-    }
-
-    /** Push element x onto stack. */
-    public void push(int x) {
-        while (!q2.isEmpty()) {
-            q1.offer(q2.poll());
+class Solution {
+    public String decodeString(String s) {
+        if (s == null || s.length() == 0) {
+            return s;
         }
-        q1.offer(x);
-    }
-
-    /** Removes the element on top of the stack and returns that element. */
-    public int pop() {
-        if (q2.isEmpty()) {
-            transfer();
+        int time = 0;
+        StringBuilder curr = new StringBuilder();
+        Stack<Integer> timeStack = new Stack();
+        Stack<StringBuilder> strStack = new Stack();
+        strStack.push(curr);
+        for (char c : s.toCharArray()) {
+            if (Character.isDigit(c)) {
+                time *= 10;
+                time += c - '0';
+            } else if (c == '[') {
+                timeStack.push(time);
+                strStack.push(curr);
+                curr = new StringBuilder();
+                time = 0;
+            } else if (c == ']') {
+                int t = timeStack.pop();
+                StringBuilder sb = strStack.pop();
+                while (t-- > 0) {
+                    sb.append(curr);
+                }
+                curr = sb;
+            } else {
+                curr.append(c);
+            }
         }
-        return q2.poll();
-    }
-
-    /** Get the top element. */
-    public int top() {
-        if (q2.isEmpty()) {
-            transfer();
-        }
-        return q2.peek();
-    }
-
-    /** Returns whether the stack is empty. */
-    public boolean empty() {
-        return q1.isEmpty() && q2.isEmpty();
-    }
-
-    private void transfer() {
-        q2 = q1;
-        q1 = new LinkedList();
-        while (q2.size() > 1) {
-            q1.offer(q2.poll());
-        }
+        return strStack.pop().toString();
     }
 }
-
-/**
- * Your MyStack object will be instantiated and called as such:
- * MyStack obj = new MyStack();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.top();
- * boolean param_4 = obj.empty();
- */
