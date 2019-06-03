@@ -3,10 +3,12 @@ class Solution {
         if (s == null || s.length() == 0) {
             return s;
         }
+
         int time = 0;
         StringBuilder sb = new StringBuilder();
         Stack<Integer> timeStack = new Stack();
         Stack<StringBuilder> strStack = new Stack();
+
         strStack.push(sb);
         for (char c : s.toCharArray()) {
             if (Character.isDigit(c)) {
