@@ -1,12 +1,12 @@
 class Solution {
     // Intuition: the largest rectangle which consecutive bars can build depends on the shortest one among them.
     //
-    // For each bar i in heights, we find the largest rectangle (let's say: rec[i]) it can build (of which height is heights[i]).
-    // Then the largest one of these rectangles is our answer: Max{rec[i]}, 0 <= i < heights.length
+    // For each bar i in histogram, we find the largest rectangle, let's say rec[i], it can build (of which height is heights[i]).
+    // Then the largest one of these rectangles is our answer: max{rec[i]}, 0 <= i < heights.length
     //
     // How to calculate rec[i]?
-    // The bars in rec[i] cannot be shorter than the i-th bar (if so, the height of rec[i] won't be heights[i])
-    // -> We find the first shorter bar in the left(j) and the first shorter bar in the right(k)
+    // The bars in such rectangle cannot be shorter than the i-th bar (if so, the height of rec[i] won't be heights[i])
+    // -> We find the first shorter bar in the left(j) and the first shorter bar in the right(k): j < i < k
     // -> In other words, all the bars between j and k are eaqul or higher than i
     // -> Then we get the area: rec[i] = heights[i] * (j - k - 1)
     //
