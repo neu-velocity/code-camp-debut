@@ -1,20 +1,21 @@
 # Code Camp Debut ![complete](http://progressed.io/bar/0?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
 
 ## Progress
-- June / 2019 / Week 1 / Day 5
-- Keyword: __Linear Data Structure__
-  - _Array_
-  - _Stack_
-  - _Queue_
-  - _Linked List_
+- June / 2019 / Week 2 / Day 1
+- Keyword: __Tree Data Structure__
+  - _Tree_
+  - _BST_
+  - _Heap_
 
 ### :fire: Today's Challenges
-\-
+- [[0145](https://leetcode.com/problems/binary-tree-postorder-traversal/)] Binary Tree Postorder Traversal
+- [[0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)] Binary Tree Level Order Traversal
+- [[0314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)] Binary Tree Vertical Order Traversal
  
 ### Last Day's Challenges
-- [[0138](https://leetcode.com/problems/copy-list-with-random-pointer)] Copy List with Random Pointer (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/138.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0138.Solution.java)) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC138.py))
-- [[0109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)] Convert Sorted List to Binary Search Tree (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Aiamjay/Week1-Day5/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0109.Solution.java)) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC109.py))
-- [[0114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)] Flatten Binary Tree to Linked List (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/114.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0114.Solution.java)) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC114.py))
+- [[0138](https://leetcode.com/problems/copy-list-with-random-pointer)] Copy List with Random Pointer (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/138.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0138.Solution.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC138.py))
+- [[0109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)] Convert Sorted List to Binary Search Tree (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Aiamjay/Week1-Day5/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0109.Solution.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC109.py))
+- [[0114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)] Flatten Binary Tree to Linked List (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/114.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0114.Solution.java) / [Python](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC114.py))
 
 ## Introduction
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
@@ -63,13 +64,22 @@
 |       | [92](https://leetcode.com/problems/reverse-linked-list-ii/)                    | Reverse Linked List II                    | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/92.cpp)                                                                    | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0092.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/MartinMa28/0092_reverse_linked_list_2.py) |
 |       | [25](https://leetcode.com/problems/reverse-nodes-in-k-group/)                  | Reverse Nodes in k-Group                  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/25.cpp)                                                                    | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0025.Solution.java)                      |                                                                                                                                |
 |       | [234](https://leetcode.com/problems/palindrome-linked-list/)                   | Palindrome Linked List                    | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/234.cpp)                                                                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0234.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC234.py)                           |
-| Day 5 | [138](https://leetcode.com/problems/copy-list-with-random-pointer)             | Copy List with Random Pointer             | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/138.cpp)                                                                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0138.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC138.py)                           |
-|       | [109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) | Convert Sorted List to Binary Search Tree | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Aiamjay/Week1-Day5/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0109.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC109.py)                           |
-|       | [114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)        | Flatten Binary Tree to Linked List        | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/114.cpp)                                                                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0114.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC114.py)                           |
+| Day 5 | [138](https://leetcode.com/problems/copy-list-with-random-pointer/)             | Copy List with Random Pointer             | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/138.cpp)                                                                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0138.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC138.py)                           |
+|       | [109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | Convert Sorted List to Binary Search Tree | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Aiamjay/Week1-Day5/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0109.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC109.py)                           |
+|       | [114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)        | Flatten Binary Tree to Linked List        | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/114.cpp)                                                                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0114.Solution.java)                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Nancy/LC114.py)                           |
 
-### Week 2
+#### Week 2
 - __Keyword:__ ___Tree Data Structure___ (_Tree, BST, Heap)_
 
+|       | #                                                                          | Title                                | C++ | Java | Python |
+|-------|----------------------------------------------------------------------------|--------------------------------------|-----|------|--------|
+| Day 1 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/)      | Binary Tree Postorder Traversal      |     |      |        |
+|       | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/)    | Binary Tree Level Order Traversal    |     |      |        |
+|       | [314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Binary Tree Vertical Order Traversal |     |      |        |
+| Day 2 |                                                                            |                                      |     |      |        |
+| Day 3 |                                                                            |                                      |     |      |        |
+| Day 4 |                                                                            |                                      |     |      |        |
+| Day 5 |                                                                            |                                      |     |      |        |
 #### Week 3
 - __Keyword:__ ___Search___ _(Binary Search, DFS, BFS)_
 
