@@ -7,33 +7,29 @@
  * }
  */
 class Solution {
-    // Reverse the first half
+    // Stack
     // TC: O(N)
-    // SC: O(1)
+    // SC: O(N)
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
             return true;
         }
-        ListNode slow = head, fast = head.next.next, next = slow.next;
-        slow.next = null;
+        ListNode slow = head, fast = head;
+        Stack<Integer> stack = new Stack();
         while (fast != null && fast.next != null) {
-            ListNode tmp = next.next;
-            next.next = slow;
-            slow = next;
-            next = tmp;
+            stack.push(slow.val);
+            slow = slow.next;
             fast = fast.next.next;
         }
-        ListNode left = slow, right = next;
-        // the number of nodes is odd
+        // number of nodes is even
         if (fast != null) {
-            right = right.next;
+            slow = slow.next;
         }
-        while (left != null && right != null) {
-            if (left.val != right.val) {
+        while (!stack.isEmpty()) {
+            if (stack.pop() != slow.val) {
                 return false;
             }
-            left = left.next;
-            right = right.next;
+            slow = slow.next;
         }
         return true;
     }
