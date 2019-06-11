@@ -18,19 +18,16 @@ class Solution {
             queue.offer(root);
         }
         while (!queue.isEmpty()) {
-            int s = queue.size();
-            while (s-- > 0) {
-                TreeNode node = queue.poll();
-                int offset = offsetMap.get(node);
-                List<Integer> column = columnMap.getOrDefault(offset, new ArrayList());
-                column.add(node.val);
-                columnMap.put(offset, column);
-                if (node.left != null) {
-                    queue.offer(node.left);
-                }
-                if (node.right != null) {
-                    queue.offer(node.right);
-                }
+            TreeNode node = queue.poll();
+            int offset = offsetMap.get(node);
+            List<Integer> column = columnMap.getOrDefault(offset, new ArrayList());
+            column.add(node.val);
+            columnMap.put(offset, column);
+            if (node.left != null) {
+                queue.offer(node.left);
+            }
+            if (node.right != null) {
+                queue.offer(node.right);
             }
         }
         return new ArrayList(columnMap.values());
