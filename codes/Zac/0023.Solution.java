@@ -9,7 +9,7 @@
 class Solution {
     // Heap
     // TC: O(NlogM) - which N is the total number of nodes, M is the length of lists
-    // SC: O(M) - the heap size can grows up to the lists.length at most
+    // SC: O(M) - the heap size can grows up to lists.length at most
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode dummy = new ListNode(0);
 
