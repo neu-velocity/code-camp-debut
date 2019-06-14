@@ -15,7 +15,7 @@ class Solution {
         PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>(
                 (a, b) -> heightMap[a / C][a % C] - heightMap[b / C][b % C]
         );
-        // init heap (corner cells is useless)
+        // init heap (corner cells are useless)
         visited[0][0] = visited[0][C - 1] = visited[R - 1][0] = visited[R - 1][C - 1] = true;
         for (int c = 1; c < C - 1; c++) {
             visited[0][c] = true;
