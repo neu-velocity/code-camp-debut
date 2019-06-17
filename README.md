@@ -1,19 +1,22 @@
 # Code Camp Debut ![complete](http://progressed.io/bar/50?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
 
 ## Progress
-- June / 2019 / Week 2 / Day 5
-- Keyword: __Tree Data Structure__
-  - _Tree_
-  - _BST_
-  - _Heap_
+- June / 2019 / Week 3 / Day 1
+- Keyword: __Search__ 
+  - _Binary Search_
+  - _DFS_
+  - _BFS_
 
 ### :fire: Today's Challenges
-\-
+- [[0035](https://leetcode.com/problems/search-insert-position/)] Search Insert Position
+- [[0278](https://leetcode.com/problems/first-bad-version/)] First Bad Version
+- [[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)] Search in Rotated Sorted Array
+- [[0081](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)] Search in Rotated Sorted Array II
 
 ### Last Day's Challenges
- - [[0295](https://leetcode.com/problems/find-median-from-data-stream/)] Find Median from Data Stream (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0295.Solution.java))
- - [[0042](https://leetcode.com/problems/trapping-rain-water/)] Trapping Rain Water (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/42.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0042.Solution.java))
- - [[0407](https://leetcode.com/problems/trapping-rain-water-ii/)] Trapping Rain Water II (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/407.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0407.Solution.java))
+- [[0295](https://leetcode.com/problems/find-median-from-data-stream/)] Find Median from Data Stream (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0295.Solution.java))
+- [[0042](https://leetcode.com/problems/trapping-rain-water/)] Trapping Rain Water (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/42.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0042.Solution.java))
+- [[0407](https://leetcode.com/problems/trapping-rain-water-ii/)] Trapping Rain Water II (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/407.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0407.Solution.java))
 
 ## Introduction
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
@@ -92,6 +95,25 @@
 
 #### Week 3
 - __Keyword:__ ___Search___ _(Binary Search, DFS, BFS)_
+
+|       | #                                                                      | Title                             | C++ | Java | Python |
+|-------|------------------------------------------------------------------------|-----------------------------------|-----|------|--------|
+| Day 1 | [35](https://leetcode.com/problems/search-insert-position/)            | Search Insert Position            |     |      |        |
+|       | [278](https://leetcode.com/problems/first-bad-version/)                | First Bad Version                 |     |      |        |
+|       | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/)    | Search in Rotated Sorted Array    |     |      |        |
+|       | [81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Search in Rotated Sorted Array II |     |      |        |
+| Day 2 |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
+| Day 3 |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
+| Day 4 |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
+| Day 5 |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
+|       |                                                                        |                                   |     |      |        |
 
 #### Week 4
 - __Keyword:__ ___Dynamic Programming___ :construction:
