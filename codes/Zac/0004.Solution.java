@@ -1,6 +1,6 @@
 class Solution {
     // binary search
-    // TC: O(m+n)
+    // TC: O(log(m+n))
     // SC: O(1)
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len = nums1.length + nums2.length;
