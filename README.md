@@ -8,9 +8,9 @@
   - _BFS_
 
 ### :fire: Today's Challenges
-- [[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)] Minimum Depth of Binary Tree
-- [[127](https://leetcode.com/problems/word-ladder/)] Word Ladder
-- [[126](https://leetcode.com/problems/word-ladder-ii/)] Word Ladder II
+- [[0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)] Minimum Depth of Binary Tree
+- [[0127](https://leetcode.com/problems/word-ladder/)] Word Ladder
+- [[0126](https://leetcode.com/problems/word-ladder-ii/)] Word Ladder II
 
 ### Last Day's Challenges
 - [[0200](https://leetcode.com/problems/number-of-islands/)] Number of Islands (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/200.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0200.Solution.java))
