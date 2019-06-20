@@ -1,21 +1,22 @@
-# Code Camp Debut ![complete](http://progressed.io/bar/65?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
+# Code Camp Debut ![complete](http://progressed.io/bar/70?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
 
 ## Progress
-- June / 2019 / Week 3 / Day 4
+- June / 2019 / Week 3 / Day 5
 - Keyword: __Search__ 
   - _Binary Search_
   - _DFS_
   - _BFS_
 
 ### :fire: Today's Challenges
-- [[0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)] Minimum Depth of Binary Tree
-- [[0127](https://leetcode.com/problems/word-ladder/)] Word Ladder
-- [[0126](https://leetcode.com/problems/word-ladder-ii/)] Word Ladder II
+- [[0046](https://leetcode.com/problems/permutations/)] Permutations
+- [[0047](https://leetcode.com/problems/permutations-ii/)] Permutations II
+- [[0078](https://leetcode.com/problems/subsets/)] Subsets
+- [[0090](https://leetcode.com/problems/subsets-ii/)] Subsets II
 
 ### Last Day's Challenges
-- [[0200](https://leetcode.com/problems/number-of-islands/)] Number of Islands (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/200.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0200.Solution.java))
-- [[0130](https://leetcode.com/problems/surrounded-regions/)] Surrounded Regions (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/130.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0130.Solution.java))
-- [[0417](https://leetcode.com/problems/pacific-atlantic-water-flow/)] Pacific Atlantic Water Flow (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0417.Solution.java))
+- [[0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)] Minimum Depth of Binary Tree (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0111.Solution.java))
+- [[0127](https://leetcode.com/problems/word-ladder/)] Word Ladder (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0126.Solution.java))
+- [[0126](https://leetcode.com/problems/word-ladder-ii/)] Word Ladder II (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0126.Solution.java))
 
 ## Introduction
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
@@ -107,12 +108,14 @@
 | Day 3 | [200](https://leetcode.com/problems/number-of-islands/)                | Number of Islands                 | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/200.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0200.Solution.java) |        |
 |       | [130](https://leetcode.com/problems/surrounded-regions/)               | Surrounded Regions                | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/130.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0130.Solution.java) |        |
 |       | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/)      | Pacific Atlantic Water Flow       |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0417.Solution.java) |        |
-| Day 4 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)     | Minimum Depth of Binary Tree      |                                                                                                         |                                                                                                              |        |
-|       | [127](https://leetcode.com/problems/word-ladder/)                      | Word Ladder                       |                                                                                                         |                                                                                                              |        |
-|       | [126](https://leetcode.com/problems/word-ladder-ii/)                   | Word Ladder II                    |                                                                                                         |                                                                                                              |        |
-| Day 5 |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
-|       |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
-|       |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
+| Day 4 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)     | Minimum Depth of Binary Tree      |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0111.Solution.java) |        |
+|       | [127](https://leetcode.com/problems/word-ladder/)                      | Word Ladder                       |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0127.Solution.java) |        |
+|       | [126](https://leetcode.com/problems/word-ladder-ii/)                   | Word Ladder II                    |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0126.Solution.java) |        |
+| Day 5 | [46](https://leetcode.com/problems/permutations/)                      | Permutations                      |                                                                                                         |                                                                                                              |        |
+|       | [47](https://leetcode.com/problems/permutations-ii/)                   | Permutations II                   |                                                                                                         |                                                                                                              |        |
+|       | [78](https://leetcode.com/problems/subsets/)                           | Subsets                           |                                                                                                         |                                                                                                              |        |
+|       | [90](https://leetcode.com/problems/subsets-ii/)                        | Subsets II                        |                                                                                                         |                                                                                                              |        |
+
 #### Week 4
 - __Keyword:__ ___Dynamic Programming___ :construction:
 
