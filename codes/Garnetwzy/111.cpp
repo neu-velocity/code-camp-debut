@@ -43,4 +43,27 @@ public:
         int right = getMinHeight(root->right) + 1;
         return min(left, right);
     }
+
+    // pre
+    void preHeight(TreeNode* root, int& minHeight, int currentLevel) {
+        if(!root)
+            return;
+        if(!root->left && !root->right) {
+            minHeight = min(minHeight, currentLevel);
+        }
+        preHeight(root->left, minHeight, currentLevel+1);
+        preHeight(root->right, minHeight, currentLevel+1);
+    }   
+    
+    // post
+    int getMinHeight(TreeNode* root) {
+        if(root == NULL)
+            return INT_MAX;
+        if(root->left == NULL && root->right == NULL) {
+            return 1;
+        }
+        return min(getMinHeight(root->left), getMinHeight(root->right)) + 1;
+    }
+
+
 };
