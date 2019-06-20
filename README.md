@@ -1,21 +1,21 @@
-# Code Camp Debut ![complete](http://progressed.io/bar/60?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
+# Code Camp Debut ![complete](http://progressed.io/bar/65?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
 
 ## Progress
-- June / 2019 / Week 3 / Day 3
+- June / 2019 / Week 3 / Day 4
 - Keyword: __Search__ 
   - _Binary Search_
   - _DFS_
   - _BFS_
 
 ### :fire: Today's Challenges
-- [[0200](https://leetcode.com/problems/number-of-islands/)] Number of Islands
-- [[0130](https://leetcode.com/problems/surrounded-regions/)] Surrounded Regions
-- [[0417](https://leetcode.com/problems/pacific-atlantic-water-flow/)] Pacific Atlantic Water Flow
+- [[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)] Minimum Depth of Binary Tree
+- [[127](https://leetcode.com/problems/word-ladder/)] Word Ladder
+- [[126](https://leetcode.com/problems/word-ladder-ii/)] Word Ladder II
 
 ### Last Day's Challenges
-- [[0074](https://leetcode.com/problems/search-a-2d-matrix/)] Search a 2D Matrix (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0074.Solution.java))
-- [[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)] Search a 2D Matrix II (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0240.Solution.java))
-- [[0004](https://leetcode.com/problems/median-of-two-sorted-arrays/)] Median of Two Sorted Arrays (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0004.Solution.java))
+- [[0200](https://leetcode.com/problems/number-of-islands/)] Number of Islands (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/200.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0200.Solution.java))
+- [[0130](https://leetcode.com/problems/surrounded-regions/)] Surrounded Regions (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/130.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0130.Solution.java))
+- [[0417](https://leetcode.com/problems/pacific-atlantic-water-flow/)] Pacific Atlantic Water Flow (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0417.Solution.java))
 
 ## Introduction
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
@@ -101,19 +101,18 @@
 |       | [278](https://leetcode.com/problems/first-bad-version/)                | First Bad Version                 | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/278.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0278.Solution.java) |        |
 |       | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/)    | Search in Rotated Sorted Array    | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/33.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0033.Solution.java) |        |
 |       | [81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Search in Rotated Sorted Array II | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/81.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0081.Solution.java) |        |
-| Day 2 | [74](https://leetcode.com/problems/search-a-2d-matrix/)                | Search a 2D Matrix                |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0074.Solution.java) |        |
-|       | [240](https://leetcode.com/problems/search-a-2d-matrix-ii/)            | Search a 2D Matrix II             |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0240.Solution.java) |        |
-|       | [4](https://leetcode.com/problems/median-of-two-sorted-arrays/)        | Median of Two Sorted Arrays       |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0004.Solution.java) |        |
-| Day 3 | [200](https://leetcode.com/problems/number-of-islands/)                | Number of Islands                 |                                                                                                         |                                                                                                              |        |
-|       | [130](https://leetcode.com/problems/surrounded-regions/)               | Surrounded Regions                |                                                                                                         |                                                                                                              |        |
-|       | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/)      | Pacific Atlantic Water Flow       |                                                                                                         |                                                                                                              |        |
-| Day 4 |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
-|       |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
-|       |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
+| Day 2 | [74](https://leetcode.com/problems/search-a-2d-matrix/)                | Search a 2D Matrix                | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/74.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0074.Solution.java) |        |
+|       | [240](https://leetcode.com/problems/search-a-2d-matrix-ii/)            | Search a 2D Matrix II             | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/240.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0240.Solution.java) |        |
+|       | [4](https://leetcode.com/problems/median-of-two-sorted-arrays/)        | Median of Two Sorted Arrays       | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/4.cpp)   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0004.Solution.java) |        |
+| Day 3 | [200](https://leetcode.com/problems/number-of-islands/)                | Number of Islands                 | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/200.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0200.Solution.java) |        |
+|       | [130](https://leetcode.com/problems/surrounded-regions/)               | Surrounded Regions                | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/130.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0130.Solution.java) |        |
+|       | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/)      | Pacific Atlantic Water Flow       |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0417.Solution.java) |        |
+| Day 4 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)     | Minimum Depth of Binary Tree      |                                                                                                         |                                                                                                              |        |
+|       | [127](https://leetcode.com/problems/word-ladder/)                      | Word Ladder                       |                                                                                                         |                                                                                                              |        |
+|       | [126](https://leetcode.com/problems/word-ladder-ii/)                   | Word Ladder II                    |                                                                                                         |                                                                                                              |        |
 | Day 5 |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
 |       |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
 |       |                                                                        |                                   |                                                                                                         |                                                                                                              |        |
-
 #### Week 4
 - __Keyword:__ ___Dynamic Programming___ :construction:
 
