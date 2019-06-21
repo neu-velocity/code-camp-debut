@@ -1,5 +1,4 @@
 package week3
-import util.control.Breaks._
 
 object Solution {
   def searchInsert(nums: Array[Int], target: Int): Int = {
