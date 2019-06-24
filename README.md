@@ -8,10 +8,10 @@
   - _Dynamic Programming_
 
 ### :fire: Today's Challenges
-- [[0036](https://leetcode.com/problems/valid-sudoku/)] Permutations
-- [[0037](https://leetcode.com/problems/sudoku-solver/)] Permutations II
-- [[0051](https://leetcode.com/problems/n-queens/)] Subsets
-- [[0052](https://leetcode.com/problems/n-queens-ii/)] Subsets II
+- [[0036](https://leetcode.com/problems/valid-sudoku/)] Valid Sudoku
+- [[0037](https://leetcode.com/problems/sudoku-solver/)] Sudoku Solver
+- [[0051](https://leetcode.com/problems/n-queens/)] N-Queens
+- [[0052](https://leetcode.com/problems/n-queens-ii/)] N-Queens II
 
 ### Last Day's Challenges
 - [[0046](https://leetcode.com/problems/permutations/)] Permutations (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0046.Solution.java))
