@@ -1,14 +1,17 @@
 # Code Camp Debut ![complete](http://progressed.io/bar/75?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
 
 ## Progress
-- June / 2019 / Week 3 / Day 5
-- Keyword: __Search__ 
-  - _Binary Search_
-  - _DFS_
-  - _BFS_
+- June / 2019 / Week 4 / Day 1
+- Keyword: __DP__ 
+  - _Backtracking_
+  - _Memory Search_
+  - _Dynamic Programming_
 
 ### :fire: Today's Challenges
-\-
+- [[0036](https://leetcode.com/problems/valid-sudoku/)] Permutations
+- [[0037](https://leetcode.com/problems/sudoku-solver/)] Permutations II
+- [[0051](https://leetcode.com/problems/n-queens/)] Subsets
+- [[0052](https://leetcode.com/problems/n-queens-ii/)] Subsets II
 
 ### Last Day's Challenges
 - [[0046](https://leetcode.com/problems/permutations/)] Permutations (Solutions: [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0046.Solution.java))
@@ -115,7 +118,26 @@
 |       | [90](https://leetcode.com/problems/subsets-ii/)                        | Subsets II                        |                                                                                                         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0090.Solution.java) |                                                                                                                                                 |
 
 #### Week 4
-- __Keyword:__ ___Dynamic Programming___ :construction:
+- __Keyword:__ ___DP___ _(Backtracking, Memory Search, Dynamic Programming)_
+
+|       | #                                                  | Title         | C++ | Java | Python |
+|-------|----------------------------------------------------|---------------|-----|------|--------|
+| Day 1 | [36](https://leetcode.com/problems/valid-sudoku/)  | Valid Sudoku  |     |      |        |
+|       | [37](https://leetcode.com/problems/sudoku-solver/) | Sudoku Solver |     |      |        |
+|       | [51](https://leetcode.com/problems/n-queens/)      | N-Queens      |     |      |        |
+|       | [52](https://leetcode.com/problems/n-queens-ii/)   | N-Queens II   |     |      |        |
+| Day 2 |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
+| Day 3 |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
+| Day 4 |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
+| Day 5 |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
+|       |                                                    |               |     |      |        |
 
 ---
 
