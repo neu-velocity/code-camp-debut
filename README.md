@@ -8,10 +8,10 @@
   - _Dynamic Programming_
 
 ### :fire: Today's Challenges
-- [[39](https://leetcode.com/problems/combination-sum/)] Combination Sum
-- [[40](https://leetcode.com/problems/combination-sum-ii/)] Combination Sum II
-- [[216](https://leetcode.com/problems/combination-sum-iii/)] Combination Sum III
-- [[377](https://leetcode.com/problems/combination-sum-iv/)] Combination Sum IV
+- [[0039](https://leetcode.com/problems/combination-sum/)] Combination Sum
+- [[0040](https://leetcode.com/problems/combination-sum-ii/)] Combination Sum II
+- [[0216](https://leetcode.com/problems/combination-sum-iii/)] Combination Sum III
+- [[0377](https://leetcode.com/problems/combination-sum-iv/)] Combination Sum IV
 
 ### Last Day's Challenges
 - [[0036](https://leetcode.com/problems/valid-sudoku/)] Valid Sudoku (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/36.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0036.Solution.java))
