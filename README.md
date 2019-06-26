@@ -1,29 +1,28 @@
-# Code Camp Debut ![complete](http://progressed.io/bar/80?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
+# Code Camp Debut ![complete](http://progressed.io/bar/85?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
 
 ## Progress
-- June / 2019 / Week 4 / Day 2
+- June / 2019 / Week 4 / Day 3
 - Keyword: __DP__ 
   - _Backtracking_
   - _Memory Search_
   - _Dynamic Programming_
 
 ### :fire: Today's Challenges
-- [[0039](https://leetcode.com/problems/combination-sum/)] Combination Sum
-- [[0040](https://leetcode.com/problems/combination-sum-ii/)] Combination Sum II
-- [[0216](https://leetcode.com/problems/combination-sum-iii/)] Combination Sum III
-- [[0377](https://leetcode.com/problems/combination-sum-iv/)] Combination Sum IV
+- [[0062](https://leetcode.com/problems/unique-paths/)] Unique Paths
+- [[0063](https://leetcode.com/problems/unique-paths-ii/)] Unique Paths II
+- [[0064](https://leetcode.com/problems/minimum-path-sum/)] Minimum Path Sum
 
 ### Last Day's Challenges
-- [[0036](https://leetcode.com/problems/valid-sudoku/)] Valid Sudoku (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/36.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0036.Solution.java))
-- [[0037](https://leetcode.com/problems/sudoku-solver/)] Sudoku Solver (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/37.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0037.Solution.java))
-- [[0051](https://leetcode.com/problems/n-queens/)] N-Queens (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/51.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0051.Solution.java))
-- [[0052](https://leetcode.com/problems/n-queens-ii/)] N-Queens II (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/52.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0052.Solution.java))
+- [[0039](https://leetcode.com/problems/combination-sum/)] Combination Sum (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/39.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0039.Solution.java))
+- [[0040](https://leetcode.com/problems/combination-sum-ii/)] Combination Sum II (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/40.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0040.Solution.java))
+- [[0216](https://leetcode.com/problems/combination-sum-iii/)] Combination Sum III (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/216.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0216.Solution.java))
+- [[0377](https://leetcode.com/problems/combination-sum-iv/)] Combination Sum IV (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/377.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0377.Solution.java))
 
 ## Introduction
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
 
 ### Participation
-参加打卡的同学，会获得 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/codes/${user}` 目录下：
+参加打卡的同学拥有 Collaborator 权限，可对本仓库进行任意读写操作。请提交解题代码至 `/codes/${user}` 目录下：
 - [Aiamjay](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/Aiamjay)
 - [AndrewSun](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/AndrewSun)
 - [Felly](https://github.com/neu-velocity/code-camp-debut/tree/master/codes/Felly)
@@ -120,25 +119,25 @@
 #### Week 4
 - __Keyword:__ ___DP___ _(Backtracking, Memory Search, Dynamic Programming)_
 
-|       | #                                                         | Title               | C++                                                                                                    | Java                                                                                                         | Python |
-|-------|-----------------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------|
-| Day 1 | [36](https://leetcode.com/problems/valid-sudoku/)         | Valid Sudoku        | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/36.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0036.Solution.java) |        |
-|       | [37](https://leetcode.com/problems/sudoku-solver/)        | Sudoku Solver       | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/37.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0037.Solution.java) |        |
-|       | [51](https://leetcode.com/problems/n-queens/)             | N-Queens            | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/51.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0051.Solution.java) |        |
-|       | [52](https://leetcode.com/problems/n-queens-ii/)          | N-Queens II         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/52.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0052.Solution.java) |        |
-| Day 2 | [39](https://leetcode.com/problems/combination-sum/)      | Combination Sum     |                                                                                                        |                                                                                                              |        |
-|       | [40](https://leetcode.com/problems/combination-sum-ii/)   | Combination Sum II  |                                                                                                        |                                                                                                              |        |
-|       | [216](https://leetcode.com/problems/combination-sum-iii/) | Combination Sum III |                                                                                                        |                                                                                                              |        |
-|       | [377](https://leetcode.com/problems/combination-sum-iv/)  | Combination Sum IV  |                                                                                                        |                                                                                                              |        |
-| Day 3 |                                                           |                     |                                                                                                        |                                                                                                              |        |
-|       |                                                           |                     |                                                                                                        |                                                                                                              |        |
-|       |                                                           |                     |                                                                                                        |                                                                                                              |        |
-| Day 4 |                                                           |                     |                                                                                                        |                                                                                                              |        |
-|       |                                                           |                     |                                                                                                        |                                                                                                              |        |
-|       |                                                           |                     |                                                                                                        |                                                                                                              |        |
-| Day 5 |                                                           |                     |                                                                                                        |                                                                                                              |        |
-|       |                                                           |                     |                                                                                                        |                                                                                                              |        |
-|       |                                                           |                     |                                                                                                        |                                                                                                              |        |
+|       | #                                                         | Title               | C++                                                                                                     | Java                                                                                                         | Python |
+|-------|-----------------------------------------------------------|---------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------|
+| Day 1 | [36](https://leetcode.com/problems/valid-sudoku/)         | Valid Sudoku        | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/36.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0036.Solution.java) |        |
+|       | [37](https://leetcode.com/problems/sudoku-solver/)        | Sudoku Solver       | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/37.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0037.Solution.java) |        |
+|       | [51](https://leetcode.com/problems/n-queens/)             | N-Queens            | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/51.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0051.Solution.java) |        |
+|       | [52](https://leetcode.com/problems/n-queens-ii/)          | N-Queens II         | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/52.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0052.Solution.java) |        |
+| Day 2 | [39](https://leetcode.com/problems/combination-sum/)      | Combination Sum     | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/39.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0039.Solution.java) |        |
+|       | [40](https://leetcode.com/problems/combination-sum-ii/)   | Combination Sum II  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/40.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0040.Solution.java) |        |
+|       | [216](https://leetcode.com/problems/combination-sum-iii/) | Combination Sum III | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/216.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0216.Solution.java) |        |
+|       | [377](https://leetcode.com/problems/combination-sum-iv/)  | Combination Sum IV  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/377.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0377.Solution.java) |        |
+| Day 3 | [62](https://leetcode.com/problems/unique-paths/)         | Unique Paths        |                                                                                                         |                                                                                                              |        |
+|       | [63](https://leetcode.com/problems/unique-paths-ii/)      | Unique Paths II     |                                                                                                         |                                                                                                              |        |
+|       | [64](https://leetcode.com/problems/minimum-path-sum/)     | Minimum Path Sum    |                                                                                                         |                                                                                                              |        |
+| Day 4 |                                                           |                     |                                                                                                         |                                                                                                              |        |
+|       |                                                           |                     |                                                                                                         |                                                                                                              |        |
+|       |                                                           |                     |                                                                                                         |                                                                                                              |        |
+| Day 5 |                                                           |                     |                                                                                                         |                                                                                                              |        |
+|       |                                                           |                     |                                                                                                         |                                                                                                              |        |
+|       |                                                           |                     |                                                                                                         |                                                                                                              |        |
 
 ---
 
