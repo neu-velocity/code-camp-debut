@@ -1,21 +1,21 @@
-# Code Camp Debut ![complete](http://progressed.io/bar/90?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
+# Code Camp Debut ![complete](http://progressed.io/bar/95?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
 
 ## Progress
-- June / 2019 / Week 4 / Day 4
+- June / 2019 / Week 4 / Day 5
 - Keyword: __DP__ 
   - _Backtracking_
   - _Memory Search_
   - _Dynamic Programming_
 
 ### :fire: Today's Challenges
-- [[0300](https://leetcode.com/problems/longest-increasing-subsequence/)] Longest Increasing Subsequence
-- [[0055](https://leetcode.com/problems/jump-game/)] Jump Game
-- [[0045](https://leetcode.com/problems/jump-game-ii/)] Jump Game II
+- [[0072](https://leetcode.com/problems/edit-distance/)] Edit Distance
+- [[0115](https://leetcode.com/problems/distinct-subsequences/)] Distinct Subsequences
+- [[0097](https://leetcode.com/problems/interleaving-string/)] Interleaving String
 
 ### Last Day's Challenges
-- [[0062](https://leetcode.com/problems/unique-paths/)] Unique Paths (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/62.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0062.Solution.java))
-- [[0063](https://leetcode.com/problems/unique-paths-ii/)] Unique Paths II (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/63.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0063.Solution.java))
-- [[0064](https://leetcode.com/problems/minimum-path-sum/)] Minimum Path Sum (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/64.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0064.Solution.java))
+- [[0300](https://leetcode.com/problems/longest-increasing-subsequence/)] Longest Increasing Subsequence (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/300.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0300.Solution.java))
+- [[0055](https://leetcode.com/problems/jump-game/)] Jump Game (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/55.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0055.Solution.java))
+- [[0045](https://leetcode.com/problems/jump-game-ii/)] Jump Game II (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/45.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0045.Solution.java))
 
 ## Introduction
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
@@ -131,12 +131,12 @@
 | Day 3 | [62](https://leetcode.com/problems/unique-paths/)                    | Unique Paths                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/62.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0062.Solution.java) |        |
 |       | [63](https://leetcode.com/problems/unique-paths-ii/)                 | Unique Paths II                | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/63.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0063.Solution.java) |        |
 |       | [64](https://leetcode.com/problems/minimum-path-sum/)                | Minimum Path Sum               | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/64.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0064.Solution.java) |        |
-| Day 4 | [300](https://leetcode.com/problems/longest-increasing-subsequence/) | Longest Increasing Subsequence |                                                                                                         |                                                                                                              |        |
-|       | [55](https://leetcode.com/problems/jump-game/)                       | Jump Game                      |                                                                                                         |                                                                                                              |        |
-|       | [45](https://leetcode.com/problems/jump-game-ii/)                    | Jump Game II                   |                                                                                                         |                                                                                                              |        |
-| Day 5 |                                                                      |                                |                                                                                                         |                                                                                                              |        |
-|       |                                                                      |                                |                                                                                                         |                                                                                                              |        |
-|       |                                                                      |                                |                                                                                                         |                                                                                                              |        |
+| Day 4 | [300](https://leetcode.com/problems/longest-increasing-subsequence/) | Longest Increasing Subsequence | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/300.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0300.Solution.java) |        |
+|       | [55](https://leetcode.com/problems/jump-game/)                       | Jump Game                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/55.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0055.Solution.java) |        |
+|       | [45](https://leetcode.com/problems/jump-game-ii/)                    | Jump Game II                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/45.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0045.Solution.java) |        |
+| Day 5 | [72](https://leetcode.com/problems/edit-distance/)                   | Edit Distance                  |                                                                                                         |                                                                                                              |        |
+|       | [115](https://leetcode.com/problems/distinct-subsequences/)          | Distinct Subsequences          |                                                                                                         |                                                                                                              |        |
+|       | [97](https://leetcode.com/problems/interleaving-string/)             | Interleaving String            |                                                                                                         |                                                                                                              |        |
 
 ---
 
