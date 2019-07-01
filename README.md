@@ -1,21 +1,20 @@
-# Code Camp Debut ![complete](http://progressed.io/bar/95?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/neu-velocity/code-camp-debut.svg?color=green)
+# Code Camp Debut ![complete](http://progressed.io/bar/100?title=completed) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/neu-velocity/code-camp-debut/v1.0.0.svg?label=commits) ![GitHub contributors](https://img.shields.io/github/contributors/neu-velocity/code-camp-debut.svg?color=blue&label=participators) 
 
 ## Progress
-- June / 2019 / Week 4 / Day 5
-- Keyword: __DP__ 
-  - _Backtracking_
-  - _Memory Search_
-  - _Dynamic Programming_
+- June / 2019 / Week X / Day X
+- Keyword:
+  - ___Linear Data Structure___ _(Array, Stack, Queue, Linked List)_
+  - ___Tree Data Structure___ (_Tree, BST, Heap)_
+  - ___Search___ _(Binary Search, DFS, BFS)_
+  - ___DP___ _(Backtracking, Memory Search, Dynamic Programming)_
 
-### :fire: Today's Challenges
-- [[0072](https://leetcode.com/problems/edit-distance/)] Edit Distance
-- [[0115](https://leetcode.com/problems/distinct-subsequences/)] Distinct Subsequences
-- [[0097](https://leetcode.com/problems/interleaving-string/)] Interleaving String
+### :dart: Today's Challenges
+:tada: Hurrah! We've finished all the challenges!
 
 ### Last Day's Challenges
-- [[0300](https://leetcode.com/problems/longest-increasing-subsequence/)] Longest Increasing Subsequence (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/300.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0300.Solution.java))
-- [[0055](https://leetcode.com/problems/jump-game/)] Jump Game (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/55.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0055.Solution.java))
-- [[0045](https://leetcode.com/problems/jump-game-ii/)] Jump Game II (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/45.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0045.Solution.java))
+- [[0072](https://leetcode.com/problems/edit-distance/)] Edit Distance (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/72.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0072.Solution.java))
+- [[0115](https://leetcode.com/problems/distinct-subsequences/)] Distinct Subsequences (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/115.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0115.Solution.java))
+- [[0097](https://leetcode.com/problems/interleaving-string/)] Interleaving String (Solutions: [C++](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/97.cpp) / [Java](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0097.Solution.java))
 
 ## Introduction
 :rocket: 刷题小分队@NEU-SV，第一次组队打卡。持续 4 周，每周 5 天，每天 3~5 题。
@@ -134,9 +133,9 @@
 | Day 4 | [300](https://leetcode.com/problems/longest-increasing-subsequence/) | Longest Increasing Subsequence | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/300.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0300.Solution.java) |        |
 |       | [55](https://leetcode.com/problems/jump-game/)                       | Jump Game                      | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/55.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0055.Solution.java) |        |
 |       | [45](https://leetcode.com/problems/jump-game-ii/)                    | Jump Game II                   | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/45.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0045.Solution.java) |        |
-| Day 5 | [72](https://leetcode.com/problems/edit-distance/)                   | Edit Distance                  |                                                                                                         |                                                                                                              |        |
-|       | [115](https://leetcode.com/problems/distinct-subsequences/)          | Distinct Subsequences          |                                                                                                         |                                                                                                              |        |
-|       | [97](https://leetcode.com/problems/interleaving-string/)             | Interleaving String            |                                                                                                         |                                                                                                              |        |
+| Day 5 | [72](https://leetcode.com/problems/edit-distance/)                   | Edit Distance                  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/72.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0072.Solution.java) |        |
+|       | [115](https://leetcode.com/problems/distinct-subsequences/)          | Distinct Subsequences          | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/115.cpp) | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0115.Solution.java) |        |
+|       | [97](https://leetcode.com/problems/interleaving-string/)             | Interleaving String            | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Garnetwzy/97.cpp)  | [:page_facing_up:](https://github.com/neu-velocity/code-camp-debut/blob/master/codes/Zac/0097.Solution.java) |        |
 
 ---
 
