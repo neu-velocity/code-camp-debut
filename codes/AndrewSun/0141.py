@@ -4,6 +4,8 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
+        if not head:
+            return False
         slow = head
         fast = head
         while fast.next and fast.next.next:
