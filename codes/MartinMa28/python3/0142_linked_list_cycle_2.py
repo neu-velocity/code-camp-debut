@@ -5,19 +5,41 @@ class ListNode(object):
         self.next = None
 
 class Solution(object):
+    # def detectCycle(self, head):
+    #     """
+    #     :type head: ListNode
+    #     :rtype: bool
+    #     """
+        
+    #     visited = []
+        
+    #     while head is not None:
+    #         if head in visited:
+    #             return head
+    #         visited.append(head)
+    #         head = head.next
+    #     return None
+    
     def detectCycle(self, head):
-        """
-        :type head: ListNode
-        :rtype: bool
-        """
+        if head == None:
+            return None
         
-        visited = []
-        
-        while head is not None:
-            if head in visited:
-                return head
-            visited.append(head)
-            head = head.next
+        one_step = head
+        two_step = head
+
+        while one_step.next and two_step.next and two_step.next.next:
+            one_step = one_step.next
+            two_step = two_step.next.next
+
+            if one_step is two_step:
+                # faster and slower pointers meet
+                while head.next and one_step.next:
+                    if head is one_step:
+                        return one_step
+                    
+                    head = head.next
+                    one_step = one_step.next
+
         return None
 
 
