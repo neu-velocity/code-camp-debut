@@ -1,48 +1,42 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
-        # if the linked list has only one node
-        if not head or not head.next: 
+				# Boundary Case
+        if not head or not head.next:
             return head
-        # fast and slow pointers to find the median of the list
-        mid, slow, fast = head, head, head
+				# dummy node is used for tracking mid_pre
+        dummy = ListNode(0)
+        dummy.next = head
+        mid_pre = dummy
+				# two pointers to divide the list from the middle
+        slow = fast = head
         while fast and fast.next:
-            mid = slow;
-            slow = slow.next
             fast = fast.next.next
-        # cut the list from the middle
-        mid.next = None
-        # sort the sublist recursively
-        l1 = self.sortList(head)
-        l2 = self.sortList(slow)
-        # merge the two parts
-        return self.mergeLists(l1, l2)
+            slow = slow.next
+            mid_pre = mid_pre.next
+        # Cut down the first part
+        mid = slow
+        mid_pre.next = None
+        
+        # Sort the two parts recursively
+        l = self.sortList(head)
+        r = self.sortList(mid)
+        return self.merge(l, r)
     
-    def mergeLists(self, l1, l2):
-        # initialize a dummy head
-        head = ListNode(-1)
-        # cur -> the current node
-        cur = head
-        if not l1:
-            return l2
-        elif not l2:
-            return l1
-        # merge the elements in ascending order
-        else:
-            while l1 and l2:
-                if l1.val < l2.val:
-                    cur.next = l1
-                    l1 = l1.next
-                else:
-                    cur.next = l2
-                    l2 = l2.next
-                cur = cur.next
-            # link the remaining part
-            cur.next = l1 if l1 else l2
-            # return the real head of the linked list
-            return head.next
+    def merge(self, l, r):
+        if not l or not r:
+            return l or r  # 学习这种python写法
+        # Fix the head
+        if l.val > r.val:
+            l, r = r, l
+        head = cur = l
+        l = l.next
+        while l and r:
+            if l.val < r.val:
+                cur.next = l
+                l = l.next
+            else:
+                cur.next = r
+                r = r.next
+            cur = cur.next
+        cur.next = l or r
+        return head
